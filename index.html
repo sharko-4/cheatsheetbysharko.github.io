@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <nav class="">
+            <ul>
+                <li>CSS</li>
+                <li>HTML</li>
+                <li>JAVA SCRIPT</li>
+                <LI>HOME</LI>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+   
+
+    <div class="container">
+        <h1>CSS: DISPLAY & POSITION</h1>
+        <h2>Position</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Property</th>
+                    <th>value</th>
+                    <th>Description</th> 
+                </tr>
+                
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="td1">Position</td>
+                    <td class="td2">Static</td>
+                    <td class="td3">Default value. Elements render in order, as they appear in the document flow.</td>
+                </tr>
+                <tr>
+                    <td class="td1">Position</td>
+                    <td class="td2">relative</td>
+                    <td class="td3">Element is positioned relative to its normal position. You can use rulest to change its position. </td>
+                </tr>
+                <tr>
+                    <td class="td1">Position</td>
+                    <td class="td2">Absolute</td>
+                    <td class="td3">It is removed from the normal flow of the document, therefore it is ignored by other elements also it overlaps them. its positioned relative to its nearest positioned ancestor otherwise its positioned to the body of the document.</td>
+                </tr>
+                <tr>
+                    <td class="td1">Position</td>
+                    <td class="td2">Fixed</td>
+                    <td class="td3"> It is removed from the normal flow of the document. It is positioned to the initial container block of the element is the viewport, it dosen't affects the document flow its position can be set by ruleset. This values always create a new stacking context.</td>
+                </tr>
+                <tr>
+                    <td class="td1">Position</td>
+                    <td class="td2">Sticky</td>
+                    <td class="td3"> Hybrid of fixed and relative. It is treated as a element with relative position until it crosses a specified threshold eg top: 10px, at wich point is treated as fixed until it reaches the limit of his parents</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Display</h2>
+        <table>
+            
+            <thead>
+                <tr>
+                    <th>Property</th>
+                    <th>Value</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="td1">Display</td>
+                    <td class="td2">Inline</td>
+                    <td class="td3">it does not starts a new line. It takes only the necessary space for its content. It can not be changed its position by ruleset </td>
+                </tr>
+                <tr>
+                    <td class="td1">Display</td>
+                    <td class="td2">Block</td>
+                    <td class="td3">Always starts a new line and It can takes all the available width in the line.</td>
+                </tr>
+                <tr>
+                    <td class="td1">Display</td>
+                    <td class="td2">Inline-block</td>
+                    <td class="td3">It dosen't start a new line and other elements cab be set next to the element. It can takes all the space available with ruleset</td>
+                </tr>
+            </tbody>
+        </table>
+    
+        <h2>Other properties </h2>
+        <table>
+            
+            <thead>
+                <tr>
+                    <th>Property</th>
+                    <th>Value</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="td1">Z-index</td>
+                    <td class="td2">Any integer number</td>
+                    <td class="td3">Allows to you sort overlapping elements. Elements with higher Z-index value cover those with lower value.</td>
+
+                </tr>
+                <tr>
+                    <td class="td1">Float</td>
+                    <td class="td2">
+                        <ul>
+                            <li>Left</li>
+                            <li>Rigt</li>
+                            <li>Inline-start</li>
+                            <li>Inline-end</li>
+                        </ul>
+                    </td>
+                    <td class="td3">Place the element in the right or left side of their container.</td>
+
+                </tr>
+                <tr>
+                    <td class="td1">Clear</td>
+                    <td class="td2">
+                        <ul>
+                            <li>Right</li>
+                            <li>Left</li>
+                            <li>Both</li>
+                            <li>Inline-start</li>
+                            <li>Inline-end</li>
+                        </ul>
+                    </td>
+                    <td class="td3">Specify whether an element can be next to other float elements o should be moved below them</td>
+
+                </tr>
+                
+            </tbody>
+        </table>
+
+        <div class="note">
+            <p><span>Note:</span>Ruleset for this document can be taken as grupo of Right, Left, Top and Bottom.</p>
+        </div>
+        
+    </div>
+    </main>
+    <div class="footer">
+       <p>by antony espinoza</p>
+       <br>
+        <p>2023</p>
+    </div>
+    
+</body>
+
+</html>

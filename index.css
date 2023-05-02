@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    
+}
+
+html, body{
+    background-color: white; 
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+}
+main{
+    position: relative;
+    top: 70px;
+    
+}
+header{
+    
+    position: fixed;
+    background-color: midnightblue;
+    width: 100%;
+    z-index: 10;
+    
+}
+nav{
+    margin: 0;
+    padding: 20px 0;
+    top: 0px;
+}
+nav li{
+    text-align: center;
+    display: inline-block;
+    font-weight: 600;
+    width: 120px;
+    font-size: 15px;
+    color:aquamarine;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+
+h2{
+    text-align: center;
+    font-size: 23px;
+    color: darkblue;   
+    margin-top: 30px;
+}
+
+th{
+    font-size: 18px;
+}
+table{
+    color:black;
+    border: 2px solid darkblue;
+    text-align: Left;
+    letter-spacing: 0.5px;
+    z-index: 3;
+    left: 90px;
+    max-width: 1200px;
+    font-family: monospace;
+    position: relative;
+    margin: 20px 0;
+    
+}
+thead{
+    color:darkblue;
+    background-color:dodgerblue;
+    text-align: center;
+}
+tbody{
+    background-color:aliceblue;
+}
+
+td{
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    border-top: 1px solid darkblue;
+    
+}
+
+span{
+    Font-weight: bold;
+    color: red;
+
+}
+
+.td2, .td1{
+    font-family: monospace;
+    font-size: 16px;
+}
+.td1{
+    background-color:mintcream;
+}
+.td2{
+    background-color: oldlace;
+}
+.container{
+    
+    padding-bottom: 140px;
+    margin: 0 auto;
+    
+}
+.note{
+    letter-spacing: 0.5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    position: relative;
+    left: 90px;
+}
+.footer{
+    background-color: midnightblue;
+    position: fixed;
+    width: 100%;
+    z-index: 4;
+    text-align: center;
+    height: 40px;
+    bottom: 0px;
+    padding: 30px;
+    
+} 
+.footer p{
+    color: aquamarine;
+    display: inline-block;
+    margin-left: 50px;
+    width: 220px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    font-family:sans-serif;
+
+}
